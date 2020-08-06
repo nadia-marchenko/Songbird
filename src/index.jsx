@@ -8,11 +8,17 @@ import './sass/index.scss';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+import HeaderComponent from './js/HeaderComponent';
+import QuestionComponent from './js/QuestionComponent';
+import AnswersComponent from './js/AnswersComponent';
 
 class App extends React.Component {
   render() {
     return (
       <>
+      <HeaderComponent />
+      <QuestionComponent/>
+      <AnswersComponent/>
         <button className="test wrapper" type="button" onClick={this.toggleActive}>
           Songbird
         </button>

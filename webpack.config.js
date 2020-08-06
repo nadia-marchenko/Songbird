@@ -10,7 +10,7 @@ function NothingPlugin() {
 }
 
 const config = (env) => ({
-  entry: './src/index.jsx',
+  entry: ["./src/index.jsx", "./src/sass/index.scss"],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
