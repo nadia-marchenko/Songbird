@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { hot } from 'react-hot-loader';
 
-import image2 from './assets/images/image2.jpeg';
-
 import './sass/index.scss';
 
 import 'core-js/stable';
@@ -22,9 +20,6 @@ class App extends React.Component {
         <button className="test wrapper" type="button" onClick={this.toggleActive}>
           Songbird
         </button>
-        <div>
-          <img  width="300" src= {image2} alt="cat" />
-        </div>
       </>
     );
   }

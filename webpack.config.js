@@ -73,6 +73,10 @@ const config = (env) => ({
           'sass-loader',
         ],
       },
+      {
+        test: /\.mp3$/,
+        loader: 'file-loader'
+      },
     ]
   },
   resolve: {

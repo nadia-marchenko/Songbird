@@ -1,0 +1,10 @@
+.audio-player {
+  margin-top: 5px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .audio-player {
+    margin-bottom: 15px;
+  }
+}
