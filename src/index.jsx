@@ -17,9 +17,11 @@ class App extends React.Component {
       <HeaderComponent />
       <QuestionComponent/>
       <AnswersComponent/>
-        <button className="test wrapper" type="button" onClick={this.toggleActive}>
-          Songbird
+      <div className='wrapper'>
+        <button className="next-button btn btn-secondary" type="button" onClick={this.toggleActive}>
+          Next Level
         </button>
+      </div>
       </>
     );
   }
