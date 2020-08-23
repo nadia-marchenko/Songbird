@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { PropTypes } from 'prop-types';
 
 class HeaderComponent extends Component {
   constructor() {
@@ -10,6 +9,7 @@ class HeaderComponent extends Component {
   }
 
   render() {
+    const { score } = this.props;
     return (
       <>
         <div className = 'wrapper'>
@@ -19,34 +19,42 @@ class HeaderComponent extends Component {
                 <h3>Songbird</h3>
               </a>
             </div>
-            <div className = 'score my-2 my-lg-0'>Score: 20</div>
+          <div className = 'score my-2 my-lg-0'>Score: {score}</div>
           </nav>
-            <Container className="btn-group" role="group">
-              <Row>
-                <Col>
-                  <button type = "button" className="btn btn-primary active">Разминка</button>
-                </Col>
-                <Col>
-                  <button type = "button" className="btn btn-primary">Воробьиные</button>
-                </Col>
-                <Col>
-                  <button type = "button" className="btn btn-primary">Лесные птицы</button>
-                </Col>
-                <Col>
-                  <button type = "button" className="btn btn-primary">Певчие птицы</button>
-                </Col>
-                <Col>
-                  <button type = "button" className="btn btn-primary">Хищные птицы</button>
-                </Col>
-                <Col>
-                 <button type = "button" className="btn btn-primary">Морские птицы</button>
-                </Col>
-              </Row>
+            <Container className="btn-group btn-group-toggle" role="group">
+            <div className="btn-group btn-group-toggle" data-toggle="buttons">
+              <label className="btn btn-primary active btn-level">
+                <input type="checkbox" autoComplete="off" defaultChecked/> Разминка
+              </label>
+              <label className="btn-level btn btn-primary">
+                <input type="checkbox" autoComplete="off" defaultChecked/> Зимующие птицы
+              </label>
+              <label className="btn-level btn btn-primary">
+                <input type="checkbox" autoComplete="off" defaultChecked/> Перелетные птицы
+              </label>
+              <label className="btn-level btn btn-primary">
+                <input type="checkbox" autoComplete="off" defaultChecked/> Хищные птицы
+              </label>
+              <label className="btn-level btn btn-primary">
+                <input type="checkbox" autoComplete="off" defaultChecked/> Горные птицы
+              </label>
+              <label className="btn-level btn btn-primary">
+                <input type="checkbox" autoComplete="off" defaultChecked/> Птицы из Красной книги РБ
+              </label>
+            </div>
             </Container>
         </div>
       </>
     );
   };
 }
+
+HeaderComponent.propTypes = {
+  score: PropTypes.number,
+};
+
+HeaderComponent.defaultProps = {
+  score: 0,
+};
 
 export default HeaderComponent;

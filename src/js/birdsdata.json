@@ -1,0 +1,305 @@
+{
+  "recordings" :
+  [
+    [
+      {
+        "id": "1",
+        "name": "Стриж",
+        "species": "Hemiprocne",
+        "description": "Стриж достигает в длину 18 см, размах крыльев — 44 см, длина крыла — 17 см и хвоста — 8 см. Хвост вильчатый, оперение тёмно-бурого цвета с зеленоватым металлическим отливом, по форме стриж похож на ласточку.",
+        "image": "https://live.staticflickr.com/65535/49865866651_78e930b957_k.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/KTBTZAHSXF/XC356128-059%20161226_021%20Crested%20Treeswift%20Veal%20Krous.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Соловей",
+        "species": "Microcerculus",
+        "description": "Соловей — распространённый символ у поэтов разных эпох, несущий специфическую коннотационную окраску. Гомер вводит этот образ в «Одиссее», в мифе о Филомеле и Прокне, где первая или последняя, в зависимости от версии мифа, превращаются в соловья.",
+        "image": "https://live.staticflickr.com/65535/49801622611_019be8c001.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/ZPYEHLWXXX/XC575987-Nightingale-wren,%20Northern_2019-01-03_1555_Costa-Rica_Arenal.mp3"
+      },
+      {
+        "id": "3",
+        "name": "Чайка",
+        "species": "Creagrus",
+        "description": "Чайки представляют собой довольно единообразную группу птиц, члены которой хорошо узнаваемы и порой трудно отличимы друг от друга. Их характерными признаками служат массивное тело, длинные изогнутые крылья средней длины.",
+        "image": "https://live.staticflickr.com/1870/44627648311_de92ec0bf6.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/MKUJNSTVEZ/XC277771-Gull_Swallow-tailed_JF_Genovesa_Galapagos_June%202011.mp3"
+      },
+      {
+        "id": "4",
+        "name": "Альбатрос",
+        "species": "Phoebastria",
+        "description": "Самыми крупными альбатросами и одними из самых крупных летающих птиц на земле считаются странствующий и королевский альбатросы (Diomedea epomophora). Размах их крыльев может достигать 3,7 м, что является в два раза меньше абсолютного рекорда.",
+        "image": "https://live.staticflickr.com/65535/49706454793_4190721831.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/FNIOJOZADD/XC209430-LaysanAlbatross_oahu_010115_billclack2.mp3"
+      },
+      {
+        "id": "5",
+        "name": "Гусь",
+        "species": "Anseranas",
+        "description": "Гуси отличаются клювом, имеющим при основании большую высоту, чем ширину, и оканчивающимся ноготком с острым краем. По краям клюва идут мелкие зубчики.",
+        "image": "https://live.staticflickr.com/3522/4555382273_3a62f950ea.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/EHGWCIGILC/XC577235-Goose_Magpie_SDMKH-062_Gilgai_Wetland_Night3_27thJun20.mp3"
+      },
+      {
+        "id": "6",
+        "name": "Трясогузка",
+        "species": "Stigmatura",
+        "description": "Отличий от других представителей семейства трясогузковых сравнительно немного. У длинного узкого, прямо обрезанного хвоста два средних пера немного длиннее боковых; 1-е маховое перо короче 2-го и 3-го; слабоизогнутый коготь заднего пальца короче самого пальца.",
+        "image": "https://live.staticflickr.com/65535/49898731851_474226cd2a.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/AQWCFBLBBN/XC540410-Stigmatura%20napensis%20-%2017072013%20-%20Boa%20Nova%20-%20BA.mp3"
+      }
+    ],
+    [
+      {
+        "id": "1",
+        "name": "Дятел",
+        "species": "Hemicircus",
+        "description": "Это мелкие и среднего размера птицы, ведущие преимущественно древесный образ жизни. Питаются насекомыми, которых с помощью клюва добывают из-под коры стволов деревьев.",
+        "image": "https://live.staticflickr.com/65535/49981575772_256900ff71.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/VLLMNTIBZB/20091206_Tuanan_Grey-and-buffWoodpecker_call.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Снегирь",
+        "species": "Pyrrhula",
+        "description": "Птица мелких размеров, чуть больше воробья. Голова сверху, вокруг клюва и глаз — чёрная. Маховые и рулевые перья тоже чёрные, с синим металлическим отливом. Поясница и подхвостье — белые.",
+        "image": "https://live.staticflickr.com/65535/49449554501_db4406670c.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/SPMWIWZKKC/XC578436-200719_2743_BRBU.mp3"
+      },
+      {
+        "id": "3",
+        "name": "Воробей",
+        "species": "Accipiter",
+        "description": "Воробьиные очень сходны с ткачиковыми и многими вьюрковыми по внешнему виду, размерам, рациону, особенностям биологии и поведения, отличаясь, однако, особенностями строения подъязычного аппарата и рогового нёба.",
+        "image": "https://live.staticflickr.com/65535/48707817402_279f5de0db.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/WHBIHHNZVS/XC418793-Levant%20Sparrow%20Hawk%20Lisi%20Lake%2002%20June%202018.mp3"
+      },
+      {
+        "id": "4",
+        "name": "Ворона",
+        "species": "Corvus",
+        "description": "Иногда чёрную и серую ворону рассматривают как подвиды одного вида — в этом случае чёрную ворону называют Corvus corone corone, а серую — Corvus corone cornix.",
+        "image": "https://live.staticflickr.com/65535/49831090301_59fd063026.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/OXOBWLVDLW/XC579346-24th%20July%20Crow.mp3"
+      },
+      {
+        "id": "5",
+        "name": "Голубь",
+        "species": "Columba",
+        "description": "Длина крыла 20—27 см, масса 200—650 г[2]. Населяют Евразию, Африку и Австралию. Наиболее распространённый вид из этого рода — сизый голубь, интродуцирован на все континенты.",
+        "image": "https://live.staticflickr.com/65535/49802590521_7eaf324404.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/WINPWCQYKA/XC429198-Pigeon%20Guillemot.mp3"
+      },
+      {
+        "id": "6",
+        "name": "Свиристель",
+        "species": "Bombycilla garrulus",
+        "description": "Длина тела составляет 18—23 см, масса — до 60—67 граммов. Есть заметный хохолок. Окраска розовато-серая, крылья чёрные с жёлтыми и белыми полосками, хвост, горло и полоска через глаза чёрные.",
+        "image": "https://live.staticflickr.com/1472/25413124770_1f906666e3.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/SNRCANJSRX/XC548843-Bombycilla%20garrulus%20calls%20flock%20%20t%20o%20Filborna%20200418%20b%20NR.mp3"
+      }
+    ],
+    [
+      {
+        "id": "1",
+        "name": "Скворец",
+        "species": "Sturnus",
+        "description": "Скворцы имеют длинный, сильный, прямой клюв со слегка сплюснутым кончиком, прямой короткий хвост, вершины которого достигают нижние кроющие перья, и острые крылья, у которых первое маховое перо укорочено, а второе длиннее остальных.",
+        "image": "https://live.staticflickr.com/3925/15187086895_ac64c73caf.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/LHCOINSOBZ/XC574132-200707_03Sturnus%20vulgaris%20crias%20piando%20no%20ni%C3%B1o%20e%20adulto%20chega%20e%20me%20ve%20facendo%20moito%20ru%C3%ADdo%20e%20marcha%20Pazo%20do%20Tambrev7.7.20%2014.00%2032%C2%BA%20sol%20a%20tope.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Ласточка",
+        "species": "Hirundinidae",
+        "description": "Для ласточковых характерна способность добывать пищу в воздухе, они в состоянии ловить насекомых на лету. У ласточковых стройное, обтекаемое телостроение и длинные узкие крылья. Клюв короткий и открывается довольно широко. Лапки весьма маленькие, у большинства видов длинные хвосты.",
+        "image": "https://live.staticflickr.com/65535/50090818196_7219dca48e.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/LDKAWQWMRJ/AfrRiverMartinLastPart.mp3"
+      },
+      {
+        "id": "3",
+        "name": "Жаворонок",
+        "species": "Alaudidae",
+        "description": "Телосложение крепкое, шея короткая, голова большая. Крылья длинные, широкие и острые, обеспечивающие быстрый полет. Форма клюва сильно отличается по родам и видам. Хвост состоит из 12 рулевых перьев, срезан прямо или с неглубокой вырезкой.",
+        "image": "https://live.staticflickr.com/65535/49774172387_7be97762d0.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/JXPGRIPRNX/XC577022-30871.mp3"
+      },
+      {
+        "id": "4",
+        "name": "Зяблик",
+        "species": "Fringilla",
+        "description": "Размер — 14—18 см. Ярко выражен половой диморфизм. Ареал — Северная Африка, Евразия. Широко распространённый, отчасти синантропный вид; один из наиболее многочисленных в России. Преимущественно зерноядная птица; птенцов выкармливает насекомыми.",
+        "image": "https://live.staticflickr.com/65535/49159136033_8b14a858e2.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/TFJFYTDAWQ/XC581621-Madeira%20Chaffinch%20-%20call%201.mp3"
+      },
+      {
+        "id": "5",
+        "name": "Кукушка",
+        "species": "Cuculus canorus",
+        "description": "Можно встретить на всех континентах, кроме Антарктиды. Отсутствуют также на крайнем севере, на юго-западе Северной Америки и в слишком засушливых регионах Ближнего Востока и Северной Африки. Некоторые виды семейства совершают миграции",
+        "image": "https://live.staticflickr.com/65535/48377838151_e15f430ec1.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC501461-190616_08.13h_koekoek_brabantse%20biesbosch%20jantjesplaat_roep_1%20ex_ad%20m_ter%20plaatse%20zingend_gezien_.mp3"
+      },
+      {
+        "id": "6",
+        "name": "Иволга",
+        "species": "Oriolus",
+        "description": "Гнездится в Европе и в Азии к востоку до Енисея. Шумная и подвижная, обычно держится в кроне деревьев, преимущественно лиственных. Необщительна, встречается в одиночку либо парами. Питается гусеницами и другими насекомыми, а также ягодами.",
+        "image": "https://live.staticflickr.com/65535/49864330071_b4057e3098.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/LHKLVTXBWH/XC575829-rigogolo%2000,23%2014-07-2020%20sergio%20.mp3"
+      }
+    ],
+    [
+      {
+        "id": "1",
+        "name": "Ястреб",
+        "species": "Polyboroides",
+        "description": "В более широком смысле, я́стребом называют любую птицу из этого подсемейства. На территории России широкое распространение имеют ястреб-перепелятник и ястреб-тетеревятник.",
+        "image": "https://live.staticflickr.com/65535/33772588388_49bb840691.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/ZWAQHOJFLZ/XC336074-160916-Gymnoge%CC%80ne%20d'Afrique@Boubo.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Сапсан",
+        "species": "Falco",
+        "description": "Хищная птица из семейства соколиных, распространённая на всех континентах, кроме Антарктиды. Размером с серую ворону, выделяется тёмным, аспидно-серым оперением спины, пёстрым светлым брюхом и чёрной верхней частью головы, а также чёрными «усами». В зависимости от размера и особенностей окраски, различают около 17 подвидов этой птицы.",
+        "image": "https://live.staticflickr.com/65535/49188599962_04b4ece559.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/RFRTVEHIZX/XC582320-200723_Peregrine_adult%20calls_A_OC.mp3"
+      },
+      {
+        "id": "3",
+        "name": "Коршун",
+        "species": "Milvus migrans",
+        "description": "Коршун и змееяд довольно схожи внешне, имеют схожие по размеру и форме крылья, а также схожий спектр питания. Коршуны – крупные хищники, в высоту они достигают около полуметра, а вес взрослых особей достигает 1 кг.",
+        "image": "https://live.staticflickr.com//65535//48701190276_ee2a9ed594.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC485740-2019-06-22%20Selenga%20Milan%20brun%20cris%20de%20quemandage%203.mp3"
+      },
+      {
+        "id": "4",
+        "name": "Канюк",
+        "species": "Buteo",
+        "description": "Средних размеров птица, длина тела 51—57 см, размах крыльев 110—130 см. Самки, как правило, крупнее самцов. Окраска сильно варьирует, от палевой до тёмно-бурой; птицу легко спутать с близким ей мохноногим канюком (Buteo lagopus) или гораздо более дальним родственником обыкновенным осоедом ",
+        "image": "https://live.staticflickr.com/65535/49618559388_c9c5cc0261.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/AGCYXCXXSH/XC575921-e%2012%202.mp3"
+      },
+      {
+        "id": "5",
+        "name": "Беркут",
+        "species": "Aquila",
+        "description": "Бе́ркут — одна из наиболее известных хищных птиц семейства ястребиных, самый крупный орёл. Распространён в Северном полушарии, где обитает преимущественно в горах, в меньшей степени на равнинных открытых и полуоткрытых ландшафтах. Избегает жилых районов, чувствителен к беспокойству со стороны человека.",
+        "image": "https://live.staticflickr.com/65535/49988688226_ca970ffaba.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/HMJIMVISCP/XC518798-guila%20Real-[AudioTrimmer.com].mp3"
+      },
+      {
+        "id": "6",
+        "name": "Орел",
+        "species": "Aquila nipalensis",
+        "description": "Большинство видов орлов отличают внушительные размеры, длина тела некоторых особей достигает 80-95 см, причем самка орла гораздо крупнее самца. Вес орла может составлять 3-7 кг. Исключение составляют мелкие виды: орел-карлик и степной орел.",
+        "image": "https://live.staticflickr.com//4835//43867392960_7105d71e19.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/KTBTZAHSXF/10_Aquila_nipalensis_al02D85.mp3"
+      }
+    ],
+    [
+      {
+        "id": "1",
+        "name": "Тетерев",
+        "species": "Lyrurus",
+        "description": "Те́терев, или те́терев-коса́ч, или полево́й те́терев, — распространённая птица семейства фазановых, обитающая в лесной, лесостепной и частично степной зоне Евразии.",
+        "image": "https://live.staticflickr.com/65535/49701584252_7ea628fc71.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/INCBVJJLBJ/XC559854-Default%20Project.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Кедровка",
+        "species": "Nucifraga",
+        "description": "Небольшая птица, чуть меньше галки и с более тонким и длинным клювом. Длина кедровки 30 сантиметров, хвоста 11 сантиметров. Вес 125—190 граммов. Окрашена в тёмный коричневато-бурый цвет с белыми пятнами, которых нет только на верхней стороне головы. На конце хвоста светлая кайма.",
+        "image": "https://live.staticflickr.com/65535/48952277128_6fe6e27cec.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC567739-Clark's%20Nutcracker%20Nucifraga%20columbiana%20Blue%20Lake,%20lassen%20Co.%20CA%206-9-2020.mp3"
+      },
+      {
+        "id": "3",
+        "name": "Бородач",
+        "species": "Gypaetus",
+        "description": "Общая длина 95—125 см, вес — 4,5—7,5 кг, длина крыла 75—80 см (у 9 птиц с Тянь-Шаня, хранящихся в Зоологическом музее Московского университета, крыло 812—930 мм), размах крыльев 275—308 см",
+        "image": "https://live.staticflickr.com/4738/25120825408_c1d2d1b21e.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC474567-Gypaete.mp3"
+      },
+      {
+        "id": "4",
+        "name": "Клушица",
+        "species": "Pyrrhocorax",
+        "description": "Распространена в горах, на возвышенностях и морских побережьях Евразии и Северной Африки, на востоке ареала образует устойчивые городские поселения. Является близкой родственницей альпийской галки (Pyrrhocorax graculus), вместе с которой образует род Pyrrhocorax. ",
+        "image": "https://live.staticflickr.com/65535/50032048568_9c09a51796.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/VWTHZYEYYB/XC562596-chovas.mp3"
+      },
+      {
+        "id": "5",
+        "name": "Пуночка",
+        "species": "Plectrophenax",
+        "description": "Длина тела достигает 16,5 см, масса — 26—40 г. Размах крыльев составляет 32—38 см. У самца в брачном оперении большая часть спины и крылья, а также средние и отчасти крайние рулевые перья — чёрного цвета, остальная поверхность птицы и широкая косая полоса на крыльях — белые.",
+        "image": "https://live.staticflickr.com/65535/49261538301_686e73499a.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/EEOAIANXMX/XC573883-Snow%20bunting%20Holme%2023rd%20Jan%202020.mp3"
+      },
+      {
+        "id": "6",
+        "name": "Стервятник",
+        "species": "Neophron",
+        "description": "Оперение стервятника окрашено в белый цвет с чёрными длинными перьями по краям крыльев, что особенно заметно в полёте. В области горла перья имеют желтоватый оттенок. Голова у стервятника лысая, со складками, и ярко-жёлтой, иногда даже оранжевой кожей.",
+        "image": "https://live.staticflickr.com/4002/4421193534_ae78ab5073.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/MGYVFVFTWX/XC580021-percno.mp3"
+      }
+    ],
+    [
+      {
+        "id": "1",
+        "name": "Кваква",
+        "species": "Nycticorax",
+        "description": "Кваква имеет короткую по сравнению с другими цаплями шею и короткий, но крепкий и мощный клюв. Ноги тоже короче, чем у остальных цапель. Самец в брачном наряде имеет чёрную с зеленоватым отливом шапочку и такого же цвета спину.",
+        "image": "https://live.staticflickr.com/829/40993452805_9d0140bebb.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/SEVIQQAKWM/XC580878-ZOOM0049_Tr1%20-%20Huairavo.mp3"
+      },
+      {
+        "id": "2",
+        "name": "Змееяд",
+        "species": "Circaetus",
+        "description": "Очень редкий исчезающий вид птиц, занесён в Красную книгу России и Красную книгу Беларуси. Один из самых пугливых и недоверчивых по отношению к человеку пернатых хищников.",
+        "image": "https://live.staticflickr.com/1655/26388427660_1b53a790c3.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/ENDNXCVYXJ/XC566267-Snake_Eagle_Potashnja_2020-06-07.mp3"
+      },
+      {
+        "id": "3",
+        "name": "Галстучник",
+        "species": "Charadrius",
+        "description": "Небольшая птица крупнее воробья, обитающая на песчаных или галечниковых участках на берегах рек, озёр и морей. Перелётная птица. Окраска верхней стороны тела буровато-серая, нижняя сторона тела белая, на зобе имеется поперечная полоса чёрного цвета, напоминающая галстук ",
+        "image": "https://live.staticflickr.com/4185/34666500616_5f02be36c9.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC575773-Envol%20limis%20divers%20dont%20grand%20gravelot%20et%20cocorli%20non%20audible.mp3"
+      },
+      {
+        "id": "4",
+        "name": "Сплюшка",
+        "species": "Otus",
+        "description": "Размер тела 15—20 см, масса 60—130 г, размах крыльев до 50 см. Окраска серо-коричневая, с белыми пятнами на плечевых перьях, тёмными пестринами и тонким струйчатым рисунком; как у многих видов рода, существуют серая и коричневая (рыжая) цветовые фазы. Радужина жёлтая, реже оранжевая.",
+        "image": "https://live.staticflickr.com/1959/45718394702_ed90aa4fa0.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/VCXIQDVBMP/XC573460-20200704_212426_1.mp3"
+      },
+      {
+        "id": "5",
+        "name": "Сипуха",
+        "species": "Tyto",
+        "description": "Хищная птица размером с галку, её длина составляет 33—39 см, размах крыльев 80—95 см. Вес птиц варьирует в широких пределах от 187 до 700 г, и во многих случаях он не является географической характеристикой, а зависит от каждой конкретной особи. Однако в целом островные птицы более мелкие.",
+        "image": "https://live.staticflickr.com/65535/50165807523_b341675a5c.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/CTBGPXUOSF/XC551006-Effraie%20des%20clochers-260420-030213.mp3"
+      },
+      {
+        "id": "6",
+        "name": "Филин",
+        "species": "",
+        "description": "Наиболее характерные черты включают в себя массивное «бочкообразное» телосложение, рыхлое оперение с преобладанием рыжеватых и охристых оттенков, ярко-оранжевые глаза и пучки удлинённых перьев над ними (так называемые «перьевые уши»)",
+        "image": "https://live.staticflickr.com/65535/48313189636_b292ab3878.jpg",
+        "audio": "https://www.xeno-canto.org/sounds/uploaded/HMJIMVISCP/XC574568-DSCN0233%20B%C3%BAho%20Real.mp3"
+      }
+    ]
+  ]
+}

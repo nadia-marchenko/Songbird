@@ -1,3 +1,7 @@
+p {
+  margin-top: 15px;
+}
+
 .answers-area {
   margin-top: 20px;
 }
@@ -67,6 +71,6 @@
   margin-top: -7px;
 }
 
-.next-button {
-  width: 100%;
+.btn-level {
+  flex-basis: 16.6% !important;
 }
