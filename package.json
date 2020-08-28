@@ -8,10 +8,12 @@
     "clean": "rm dist/bundle.js",
     "dev": "webpack -d",
     "prod": "webpack -p",
-    "start": "webpack-dev-server --hot -d",
+    "dev-start": "webpack-dev-server --hot -d",
     "lint": "eslint './src/**/*.jsx'",
     "lint:fix": "npm run lint --fix",
-    "analyze": "webpack -p --env.analyze"
+    "analyze": "webpack -p --env.analyze",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   "homepage": "https://github.com/nadia-marchenko/Songbird#readme",
   "dependencies": {
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "lodash": "^4.17.19",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
