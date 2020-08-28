@@ -32,28 +32,9 @@ class HeaderComponent extends Component {
             <Container className="btn-group btn-group-toggle" role="group">
             <div className="btn-group btn-group-toggle" data-toggle="buttons">
               {listItems}
-              {/* <label className="btn btn-primary btn-level active">
-                <input type="checkbox" autoComplete="off" defaultChecked/> Разминка
-              </label>
-              <label className="btn-level btn btn-primary disabled">
-                <input type="checkbox" autoComplete="off" defaultChecked/> Зимующие птицы
-              </label>
-              <label className="btn-level btn btn-primary disabled">
-                <input type="checkbox" autoComplete="off" defaultChecked/> Перелетные птицы
-              </label>
-              <label className="btn-level btn btn-primary disabled">
-                <input type="checkbox" autoComplete="off" defaultChecked/> Хищные птицы
-              </label>
-              <label className="btn-level btn btn-primary disabled">
-                <input type="checkbox" autoComplete="off" defaultChecked/> Горные птицы
-              </label>
-              <label className="btn-level btn btn-primary disabled">
-                <input type="checkbox" autoComplete="off" defaultChecked/> Птицы из Красной книги РБ
-              </label> */}
             </div>
             </Container>
         </div>
-        <div>Level header: {level}</div>
       </>
     );
   };

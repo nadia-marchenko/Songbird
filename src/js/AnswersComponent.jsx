@@ -24,21 +24,11 @@ class AnswersComponent extends Component {
     let { clickedAnswers } = this.state;
     const click = event;
     const label = click.currentTarget.querySelector('.control-label');
-    // const errLabel = document.querySelectorAll('.error-label');
-    // const correctLabel = document.querySelectorAll('.correct-label');
 
     this.setState({
       chosenBird: label.id,
       isChosen: true,
     });
-
-    // if(isUpdateLevel) {
-    //   [...errLabel].map(el => el.classList.remove('error-label'));
-    //   [...correctLabel].map(el => el.classList.remove('correct-label'));
-    //   this.setProps({
-    //     isUpdateLevel: false,
-    //   })
-    // }
     
     if(Number(label.id) === rightAnswerID) {
       label.classList.add('correct-label');
@@ -79,19 +69,6 @@ class AnswersComponent extends Component {
     });
   }
 
-  // checkAnswer() {
-  //   const { answer } = this.state;
-  //   let classLabel = ''; 
-  //   if (answer === 'right') {
-  //     classLabel = 'control-label correct-label';
-  //   } else if (answer === 'wrong') {
-  //     classLabel = 'control-label error-label';
-  //   } else {
-  //     classLabel = 'control-label';
-  //   }
-  //   return classLabel;
-  // }
-
   renderBirdDescription() {
     const { chosenBird } = this.state;
     const { level } = this.props;
@@ -122,11 +99,10 @@ class AnswersComponent extends Component {
   }
 
   render() {
-    const { isChosen, clickedAnswers } = this.state;
+    const { isChosen } = this.state;
     const { level } = this.props;
     const listItems = birsdata.recordings[level].map((item) => 
       <li key={item.id} className='list-group-item' role="presentation" onClick={e => this.getComponent(e)} >
-        {/* <span className={this.checkAnswer()} id={item.id}/> */}
         <span className='control-label' id={item.id}/>
         {item.name}
       </li>, this
@@ -150,8 +126,6 @@ class AnswersComponent extends Component {
             </Row>
           </Container>
         </div>
-        <div>ClickedAnswers: {clickedAnswers}</div>
-        <div>Level: {level}</div>
       </>
     );
   };
@@ -163,13 +137,11 @@ AnswersComponent.propTypes = {
   updateScore: PropTypes.func.isRequired,
   level: PropTypes.number,
   isRight: PropTypes.bool.isRequired,
-  // isUpdateLevel: PropTypes.bool,
 };
 
 AnswersComponent.defaultProps = {
   rightAnswerID: 1,
   level: 0,
-  // isUpdateLevel: false,
 };
 
 export default AnswersComponent;

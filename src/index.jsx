@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import { hot } from 'react-hot-loader';
-
 import './sass/index.scss';
 
 import 'core-js/stable';
@@ -25,7 +23,6 @@ class App extends React.Component {
       isRight: false,
       score: 0,
       level: 0,
-      isUpdateLevel: false,
     }
 
     this.updateAnswer = (value) => {
@@ -43,7 +40,6 @@ class App extends React.Component {
       return { 
         level: state.level + 1,
         isRight: false,
-        isUpdateLevel: true,
         rightAnswerID: Helper.getRandomArbitrary(0, birdsdata.recordings[0].length),
     }
     })
@@ -58,7 +54,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { rightAnswerID, isRight, score, level, isUpdateLevel } = this.state;
+    const { rightAnswerID, isRight, score, level } = this.state;
     if(level < 6) {
       return (
         <>
@@ -78,7 +74,6 @@ class App extends React.Component {
           updateScore = {this.updateScore}
           level = {level}
           isRight = {isRight}
-          isUpdateLevel = {isUpdateLevel}
           ref={this.child}
         />
         <button 
@@ -88,10 +83,6 @@ class App extends React.Component {
           disabled={!isRight}
         >Next
         </button>
-        <div>{rightAnswerID}</div>
-        <div>{isRight.toString()}</div>
-        <div>Score parent: { score }</div>
-        <div>Level: {level}</div>
         </>
       )
     } 
@@ -104,11 +95,7 @@ class App extends React.Component {
         <FinalScreenComponent 
           score = {score}
           playAgain = {this.playAgain}
-          />
-        <div>{rightAnswerID}</div>
-        <div>{isRight.toString()}</div>
-        <div>Score parent: { score }</div>
-        <div>Level: {level}</div>
+        />
       </>
     );
     }

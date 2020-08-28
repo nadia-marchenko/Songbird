@@ -6,7 +6,6 @@ import Image from 'react-bootstrap/Image';
 import ReactAudioPlayer from 'react-audio-player';
 import { PropTypes } from 'prop-types';
 import birsdata from './birdsdata.json';
-// import song from '../assets/images/song.mp3';
 
 import image2 from '../assets/images/default-bird.jpeg';
 
@@ -34,7 +33,6 @@ class QuestionComponent extends Component {
                   src = {birsdata.recordings[level].filter((el) => el.id === rightAnswerID.toString())[0].audio}
                   controls
                 />
-                <div>{level}</div>
               </Col>
             </Row>
           </Container>
