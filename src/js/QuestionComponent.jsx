@@ -17,23 +17,24 @@ class QuestionComponent extends Component {
   }
 
   render() {
-    const { rightAnswerID, isRight } = this.props;
+    const { rightAnswerID, isRight, level } = this.props;
     return (
       <>
         <div className = 'wrapper question-area'>
           <Container className='bg-dark rounded'>
             <Row>
               <Col sm={3} xs={12}>
-                <Image className='default-answer-img' src= { isRight ? birsdata.recordings[0][rightAnswerID-1].image : image2} width='500px' alt="bird" rounded fluid/>
+                <Image className='default-answer-img' src= { isRight ? birsdata.recordings[level][rightAnswerID-1].image : image2} width='500px' alt="bird" rounded fluid/>
               </Col>
               <Col sm={9} xs={12}>
-                <h2 className='bird-name-question'>{isRight ? birsdata.recordings[0][rightAnswerID-1].name : '*******'}</h2>
+                <h2 className='bird-name-question'>{isRight ? birsdata.recordings[level][rightAnswerID-1].name : '*******'}</h2>
                 <hr/>
                 <ReactAudioPlayer
                   className = 'audio-player'
-                  src = {birsdata.recordings[0].filter((el) => el.id === rightAnswerID.toString())[0].audio}
+                  src = {birsdata.recordings[level].filter((el) => el.id === rightAnswerID.toString())[0].audio}
                   controls
                 />
+                <div>{level}</div>
               </Col>
             </Row>
           </Container>
@@ -46,11 +47,13 @@ class QuestionComponent extends Component {
 QuestionComponent.propTypes = {
   rightAnswerID: PropTypes.number,
   isRight: PropTypes.bool,
+  level: PropTypes.number,
 };
 
 QuestionComponent.defaultProps = {
   rightAnswerID: 1,
   isRight: false,
+  level: 0,
 };
 
 export default QuestionComponent;

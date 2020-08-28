@@ -2,3 +2,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+.btn-group {
+  padding: 0;
+  width: 100%;
+}
+
+.btn:not(:disabled):not(.disabled){
+  cursor: text;
+}

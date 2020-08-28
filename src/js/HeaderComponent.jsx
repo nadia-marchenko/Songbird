@@ -9,7 +9,15 @@ class HeaderComponent extends Component {
   }
 
   render() {
-    const { score } = this.props;
+    const { score, level } = this.props;
+    const levelNames = ['Разминка', 'Зимующие птицы', 'Перелетные птицы', 'Хищные птицы', 'Горные птицы', 'Птицы из Красной книги РБ'];
+    const listItems = levelNames.map((item, index) => 
+      <label className={level === index ? 'btn btn-primary btn-level active' : 'btn btn-primary btn-level disabled'} key={item.id}>
+        <input type="checkbox" autoComplete="off" defaultChecked/> {item}
+      </label>
+    , this
+  );
+
     return (
       <>
         <div className = 'wrapper'>
@@ -23,27 +31,29 @@ class HeaderComponent extends Component {
           </nav>
             <Container className="btn-group btn-group-toggle" role="group">
             <div className="btn-group btn-group-toggle" data-toggle="buttons">
-              <label className="btn btn-primary active btn-level">
+              {listItems}
+              {/* <label className="btn btn-primary btn-level active">
                 <input type="checkbox" autoComplete="off" defaultChecked/> Разминка
               </label>
-              <label className="btn-level btn btn-primary">
+              <label className="btn-level btn btn-primary disabled">
                 <input type="checkbox" autoComplete="off" defaultChecked/> Зимующие птицы
               </label>
-              <label className="btn-level btn btn-primary">
+              <label className="btn-level btn btn-primary disabled">
                 <input type="checkbox" autoComplete="off" defaultChecked/> Перелетные птицы
               </label>
-              <label className="btn-level btn btn-primary">
+              <label className="btn-level btn btn-primary disabled">
                 <input type="checkbox" autoComplete="off" defaultChecked/> Хищные птицы
               </label>
-              <label className="btn-level btn btn-primary">
+              <label className="btn-level btn btn-primary disabled">
                 <input type="checkbox" autoComplete="off" defaultChecked/> Горные птицы
               </label>
-              <label className="btn-level btn btn-primary">
+              <label className="btn-level btn btn-primary disabled">
                 <input type="checkbox" autoComplete="off" defaultChecked/> Птицы из Красной книги РБ
-              </label>
+              </label> */}
             </div>
             </Container>
         </div>
+        <div>Level header: {level}</div>
       </>
     );
   };
@@ -51,10 +61,12 @@ class HeaderComponent extends Component {
 
 HeaderComponent.propTypes = {
   score: PropTypes.number,
+  level: PropTypes.number,
 };
 
 HeaderComponent.defaultProps = {
   score: 0,
+  level: 0,
 };
 
 export default HeaderComponent;
