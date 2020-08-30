@@ -6,6 +6,7 @@
 .btn-group {
   padding: 0;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .btn:not(:disabled):not(.disabled){

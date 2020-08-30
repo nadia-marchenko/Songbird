@@ -7,16 +7,21 @@ import { PropTypes } from 'prop-types';
 
 import Image from 'react-bootstrap/Image';
 import birsdata from './birdsdata.json';
+import correctAudioFile from '../assets/right-answer.mp3';
+import wrongAudioFile from '../assets/wrong-answer.mp3';
 
 class AnswersComponent extends Component {
 
   constructor(props) {
-    super(props);    this.state = {
+    super(props);    
+    this.state = {
       chosenBird: '1',
       isChosen: false,
       clickedAnswers: 0,
       maxPoints: 5,
-    }
+    };
+    this.correctAudio = new Audio(correctAudioFile);
+    this.wrongAudio = new Audio(wrongAudioFile);
   }
 
   getComponent(event) {
@@ -31,10 +36,12 @@ class AnswersComponent extends Component {
     });
     
     if(Number(label.id) === rightAnswerID) {
+      this.correctAudio.play();
       label.classList.add('correct-label');
       this.changeScore();
       updateAnswer(true);
     } else if(!isRight) {
+      this.wrongAudio.play();
       label.classList.add('error-label');
       this.setState({
         clickedAnswers: clickedAnswers += 1,
