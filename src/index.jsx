@@ -81,7 +81,7 @@ class App extends React.Component {
           className="btn btn-primary btn-lg btn-block wrapper button-next"
           onClick={this.toNextLevel}
           disabled={!isRight}
-        >Next
+        >Дальше
         </button>
         </>
       )
