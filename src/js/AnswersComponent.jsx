@@ -107,13 +107,14 @@ class AnswersComponent extends Component {
 
   render() {
     const { isChosen } = this.state;
-    const { level } = this.props;
+    const { level, rightAnswerID } = this.props;
     const listItems = birsdata.recordings[level].map((item) => 
       <li key={item.id} className='list-group-item' role="presentation" onClick={e => this.getComponent(e)} >
         <span className='control-label' id={item.id}/>
         {item.name}
       </li>, this
     );
+    console.log(rightAnswerID);
 
     return (
       <>
