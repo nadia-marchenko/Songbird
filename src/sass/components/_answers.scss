@@ -1,0 +1,76 @@
+p {
+  margin-top: 15px;
+}
+
+.answers-area {
+  margin-top: 20px;
+}
+
+.answer-options {
+  // margin-right: 5px;
+  // padding: 0 5px 0 5px;
+}
+
+.raised-block {
+  // background-color: #fff;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: -0.625rem; // for us 0.625rem == 10px
+  // padding-left: 0.625rem;
+  // padding-right: 0.625rem;
+}
+@media (max-width: 33.9em){ // this is for our mobile layout where columns stack
+  .raised-block {
+      margin-left: -0.625rem;
+  }
+}
+.row [class^="col-"]:first-child>.raised-block {
+  // this is so the first column has no margin so it will not be "indented"
+  margin-left: -0.625rem;
+}
+
+.control-label {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: grey;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #444;
+}
+
+.error-label {
+  background-color: #e74c3c;
+}
+
+.correct-label {
+  background-color: #00bc8c;
+}
+
+.birds-description {
+  margin: 15px 15px;
+  text-align: justify;
+}
+
+.bird-name {
+  margin-top: 15px;
+}
+
+.translate-bird-name {
+  margin: -9px 0;
+}
+
+.player-answer {
+  margin-top: -7px;
+}
+
+.button-next {
+  cursor: pointer !important;
+}
