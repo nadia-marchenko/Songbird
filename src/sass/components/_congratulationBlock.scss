@@ -1,0 +1,17 @@
+.display-3, .lead {
+  text-align: center;
+}
+
+.btn-one-more {
+  cursor: pointer !important;
+}
+
+.jumbotron {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 720px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+}
